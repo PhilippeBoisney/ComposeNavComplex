@@ -1,0 +1,32 @@
+root = true
+
+[*.{kt,kts}]
+indent_size = 4
+insert_final_newline = true
+max_line_length = 120
+
+ij_kotlin_allow_trailing_comma = true
+ij_kotlin_allow_trailing_comma_on_call_site = true
+ij_kotlin_imports_layout = *,^
+
+ktlint_code_style = android_studio
+ktlint_standard_argument-list-wrapping = disabled
+ktlint_standard_discouraged-comment-location = disabled
+ktlint_standard_multiline-if-else = disabled
+ktlint_standard_trailing-comma-on-call-site = enabled
+ktlint_standard_trailing-comma-on-declaration-site = enabled
+# https://pinterest.github.io/ktlint/1.0.0/rules/standard/#function-signature
+ktlint_standard_function-signature = disabled
+ktlint_standard_function_signature_wrapping_rule_always_with_minimum_parameters = disabled
+# https://pinterest.github.io/ktlint/1.0.1/rules/standard/#function-naming
+ktlint_function_naming_ignore_when_annotated_with = Composable
+# https://pinterest.github.io/ktlint/latest/rules/standard/#function-expression-body
+ktlint_standard_function-expression-body = disabled
+# https://pinterest.github.io/ktlint/latest/rules/standard/#class-signature
+ktlint_standard_class-signature = disabled
+
+[**/{test,androidTest}/**]
+ktlint_standard_function-naming = disabled
+
+[R.kt]
+ktlint_standard_filename = disabled
