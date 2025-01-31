@@ -34,7 +34,7 @@ internal fun PerformanceScreen(onNavigate: OnNavigateTo) {
             text = "Performance Screen",
             style = MaterialTheme.typography.headlineLarge,
             fontWeight = FontWeight.Bold,
-            color = Color.White
+            color = Color.White,
         )
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = {

@@ -41,7 +41,7 @@ internal fun ProductScreen(
             fontWeight = FontWeight.Bold,
             color = Color.White,
             textAlign = TextAlign.Center,
-            modifier = Modifier.padding(16.dp)
+            modifier = Modifier.padding(16.dp),
         )
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = {

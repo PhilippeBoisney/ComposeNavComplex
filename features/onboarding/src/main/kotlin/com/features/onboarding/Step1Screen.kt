@@ -35,7 +35,7 @@ internal fun Step1Screen(
             text = "Onboarding - Step 1",
             style = MaterialTheme.typography.headlineLarge,
             fontWeight = FontWeight.Bold,
-            color = Color.White
+            color = Color.White,
         )
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = onNext) {
